@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevVault</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="app" class="light">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">DevVault</h1>
+            <button id="themeToggle" class="theme-toggle">🌙</button>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Welcome Section -->
+            <section class="welcome">
+                <h2>Welcome to DevVault</h2>
+                <p>Showcase your projects, share your thoughts, and connect with others in the tech world.</p>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Portfolio Website</h3>
+                        <p>A sleek, modern personal portfolio to showcase your skills and experience.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Weather App</h3>
+                        <p>A responsive app that provides real-time weather updates.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Chat Application</h3>
+                        <p>A simple, secure app for instant messaging and collaboration.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <section class="blog">
+                <h2>Blog</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>How to Build a Portfolio</h3>
+                        <p>Tips and tricks for crafting an impressive portfolio website.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Top JavaScript Libraries</h3>
+                        <p>Explore the best JavaScript libraries to boost your projects.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Coding Best Practices</h3>
+                        <p>Learn how to write clean, efficient, and maintainable code.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact">
+                <h2>Contact</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; <span id="year"></span> DevVault. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
